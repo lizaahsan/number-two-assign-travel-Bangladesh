@@ -85,10 +85,10 @@ nav li {
     font-weight: 600px;
 }
 .popular-tour p{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .popular-tour li{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .img-popu-tour{
     margin-left: 150px;
@@ -110,6 +110,7 @@ nav li {
     margin-top: 50px;
     position: relative;
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 .destiny-prt-one h3{
     font-size: 3rem;
@@ -312,7 +313,6 @@ padding-right: 50px;
 .part-five-newsletter{
     width: 100%;
     height: 500px;
-    background-color: yellow;
     display: flex;
     margin-top: 50px;
  }
@@ -344,7 +344,7 @@ padding-right: 50px;
  }
  .news-three{
     width: 520px;
-    border: 1px solid  rgb(86, 71, 71);
+    border: 0.5px solid rgba(86, 71, 71, 0.098);
     margin-bottom: 20px;
     margin-left: 30px;
  }
@@ -367,6 +367,7 @@ padding-right: 50px;
     text-align: center;
     margin-bottom: 10px;
     margin-left: 30px;
+    border: 0.5px solid rgba(86, 71, 71, 0.277);
  }
 
  .news-five #email {
@@ -378,6 +379,7 @@ padding-right: 50px;
     text-align: center;
     margin-bottom: 10px;
     margin-left: 30px;
+    border: 0.5px solid rgba(86, 71, 71, 0.277);
  }
  .news-right{
       position: relative;
@@ -393,8 +395,61 @@ padding-right: 50px;
     position: absolute;
     top: 250px;
     left: 300px;
-
     font-size: 1rem;
+ }
+ .footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(220, 227, 239, 0.399);
+    align-items: center;
+    margin-top: 50px;
+ }
+ .surname  h3 span{
+    color: rgb(246, 38, 15);
+    align-items: center;
+    text-align: center;
+ }
+ .footer-four{
+    width: 70%;
+    border: 0.5px solid  rgba(212, 211, 219, 0.622);
+    margin-bottom: 20px;
+    margin-left: 200px;
+ }
+ .footer-five p{
+   font-size: 1rem;
+   text-align: center;
+   color: rgb(86, 71, 71);
+ }
+ .footer-one{
+    display: flex;
+    position: relative;
+ }
+ .logo{
+    position: absolute;
+    left: 600px;
+    top: 10px;
+ }
+ .surname{
+    position: absolute;
+    left: 700px;
+    padding-left: 10px;
+ }
+ .surname span{
+    padding-left: 20px;
+ }
+ .footer-two{
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+ }
+ .footer-three {
+    align-items: center;
+    margin-left: 730px;
+    padding: 10px;
+ }
+ .footer-three img{
+    align-items: center;
+    padding: 10px;
  }
 /*media screen*/
 /*mobile screen*/
@@ -544,6 +599,17 @@ padding-right: 50px;
          .news-right{
             margin-left: 0px;
          }
+         .footer{
+           flex-direction: column;
+         }
+         .footer-one{
+            flex-direction: column;
+            margin-bottom: 50px;
+         }
+         .footer-three{
+            flex-direction: column;
+            margin-bottom: 20px;
+         }
     }
 /*start of popular part*/    
 /*start of popular part*/
@@ -593,5 +659,16 @@ padding-right: 50px;
           margin-bottom: 10px;
           column-gap: 10px;
        }
+       .footer{
+        flex-direction: column;
+      }
+      .footer-one{
+         flex-direction: column;
+         margin-bottom: 50px;
+      }
+      .footer-three{
+         flex-direction: column;
+         margin-bottom: 20px;
+      }
 
     }
